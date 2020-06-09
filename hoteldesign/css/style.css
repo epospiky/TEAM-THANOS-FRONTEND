@@ -1,0 +1,52 @@
+/*p{
+
+    width: 361px;
+    height: 231px;
+    left: 728px;
+    top: 1440px;
+    
+    font-family: Mukta;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 33px;
+    
+    color: #000000;
+}
+span .a{
+    display: inline-block;
+}*/
+div .absolute{
+
+    border-bottom: 2px solid#F2B30F;
+    border-top: 2px solid orange;
+    border-right: 2px solid orange;
+    
+    padding: auto;
+    margin: auto;
+}
+/*h2{
+
+width: 330px;
+height: 72px;
+left: 726px;
+top: 500px;
+
+font-family: Mukta;
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 150px;
+
+color: #06348C;
+}
+button{
+    left: 48.58%;
+right: 35.2%;
+top: 37.02%;
+bottom: 61.39%;
+
+background: #234B9A;
+border-radius: 10px;
+
+}
