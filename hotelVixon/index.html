@@ -27,21 +27,25 @@
                 <nav class="navheader">
                     <ul>
                         <li><a href="#rooms">Rooms</a></li>
-                        <li><a href="facilities.html">Facilities</a></li>
+                        <li><a href="#">Facilities</a></li>
                         <li><a href="#">Contact Us</a></li>
                         <li><a href="#">Register</a></li>
                         <li><a href="#">Sign In</a></li>
                     </ul>
                 </nav>
                 <div class="dropdwn">
-                    <select name="sectional_nav" id="sectional_nav" onchange="window.location.href=this.value">
-						<option value="0" selected disabled>More</option>
-						<option value="#rooms">Rooms</option>
-						<option value="#">Facilities</option>
-						<option value="#">Contact Us</option>
-						<option value="#">Register</option>
-						<option value="#">Sign In</option>
-					</select>
+                    <div class="dropdown dropleft">
+                        <button type="button" class="btn btn-primary dropdown-toggle" id="menu" data-toggle="dropdown">
+                          Menu
+                        </button>
+                        <div class="dropdown-menu menuhead">
+                            <a class="dropdown-item menuopt" href="#rooms">Rooms</a>
+                            <a class="dropdown-item menuopt" href="#">Facilities</a>
+                            <a class="dropdown-item menuopt" href="#">Contact Us</a>
+                            <a class="dropdown-item menuopt" href="#">Register</a>
+                            <a class="dropdown-item menuopt" href="#">Sign in</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </header>
