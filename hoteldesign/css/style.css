@@ -1,5 +1,5 @@
 p{
-font-family: Mukta;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;
@@ -14,70 +14,280 @@ body{
 }
 
 
-@import url('https://fonts.googleapis.com/css2?family=Mukta&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Mukta', sans-serif;
-    box-sizing: border-box;
-}
+
  .absolute{
-    margin-left: 20px;
+    
     border-bottom: 2px solid#F2B30F;
     border-top: 2px solid orange;
     border-right: 2px solid orange;
+    display:  block;
+    margin-top: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
     
-    padding: 10px;
-    margin: 10px;
-    margin-right: 20px;
+    
 }
-.mail{
-  background-color: #DADADA;
-text-align: center;
-margin-top: 0px;
-margin-bottom: 0px;
-padding-top: 15px;
-padding-bottom: 15px;
+ .absolute img{
+  margin-right: 30px;
+  display: grid;
+  
+
   
   
 }
+.absolute h2 {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 93px;
+  color: #234B9A;
+  display: block;
+
+}
+  .absolute button{
+    margin-bottom: 30px;
+    width: 180px;
+    color: white;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 10px;
+   padding-top: 6px;
+   padding-bottom: 6px;
+    font-weight: bold;
+    background-color: #234B9A;
+
+}
+.absolute button:hover {
+  opacity: 0.7;
+}
+.absolute p{
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 33px;
+  color: #000000;
+  display: block;
+  
+
+}
+
 .view{
   text-align: center;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  
 }
-h2{
 
-
-font-family: Mukta;
-font-style: normal;
-font-weight: 600;
-font-size: 56px;
-line-height: 100px;
-
-color: #06348C;
+ 
+form.mail{
+  position: relative;
+  display: inline-flex;
 }
+button[type="submit"]{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  height: 40px;
+  width: 120px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #234B9A;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  
+}
+button[type="submit"]:hover {
+  opacity: 0.7;
+}
+input.msg{
+  width: 500px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 2px 0;
+  height: 40px;
+  padding-left: 10px;
+  background:#FFFFFF;
+  font-size: 14px; 
+   border: 1px solid orange;
+   border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.label{
+  background-color:rgba(39, 100, 126, 0.1);
+  text-align: center;
+  padding: 20px 20px;
+  
+}
+.label p{
+  color: #234B9A;
+  font-weight: bold;
+}
+
+
+.view button{
+  width: 250px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color:#234B9A;
+
+}
+.view button:hover {
+  opacity: 0.7;
+}
+
+
 footer{
-  background-color: #06348C;
-}
-button{
-
-
-background: #234B9A;
-border-radius: 10px;
+  background-color:#234B9A;
+  color: white;
+  text-transform: inherit;
 
 }
+.row p{
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.row a{
+  color: white;
+  font-size: 12px;
+  padding-bottom: 20px;
+  
+  
+  
+}
+.row li{
+  color: white;
+  font-size: 12px;
+  padding-bottom: 20px;
+  font-weight: 500;
+}
+.row h5{
+font-size:15px;
+
+}
+ .list-unstyled div a{
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  display: inline-block;
+  color: #234B9A;
+  text-align: center;
+  font-size: 15px;
+  margin-right: 5px;
+
+}
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
 p.amount{
     float: right;
+    padding-right: 15px;
 }
-p.star{
+.star{
     float: right;
-    padding-top: 5px;
+    padding-top: 30px;
+    padding-right: 15px;
+    display: block;
+    position: relative;
+  display: inline-flex;
+  
+
+    
 }
+.star .material-icons {
+  display: inline;
+  margin-right: 2px;
+  font-weight: bolder;
+  color: red;
+  font-size: 15px;
+}
+
 .header-img {
     width: 100%;
     height: 800px;
     background: url('https://res.cloudinary.com/oma16/image/upload/v1591785802/isai-ramos-A6WQ57dzHgU-unsplash_1_pfwe3z.png');
     background-size: cover;
   }
+  .header-img form{
+    position: relative;
+    display: inline-flex;
+    
+  }
+  .header-img .check{
+    text-align: center;
+    margin-top: 270px;
+    margin-left: 100px;
+
+  }
+  .header-img .check input{
+    width: 350px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 2px 0;
+    height: 40px;
+    padding-left: 10px;
+    background:#FFFFFF;
+    font-size: 14px; 
+     border: 1px solid orange;
+     border-bottom-left-radius: 10px; 
+    border-top-left-radius: 10px;
+    text-align: center;
+  }
+  .header-img .check .btn{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 40px;
+    width: 120px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    background-color: #234B9A;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+  }
+  .header-img .check select{
+    border-top: 1px solid orange;
+    border-bottom: 1px solid orange;
+    width: 450px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    
+  }
+  
+  .header-img .check p{
+    color: #234B9A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 40px;
+    
+  }
+.header-img h3{
+  color: #234B9A;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+}
+.header-img .topnav{
+  color: #234B9A;
+}
 .topnav{
     overflow: hidden;
     background-color: none;
@@ -85,19 +295,19 @@ p.star{
 }
 .topnav a{
     float: left;
-    color: blue;
+    color:#234B9A;
     padding: 14px 16px;
     font-size: 24px;
-    font-family: Mukta;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .menu {
     float: right;
-    color: blue;
+    color: #234B9A;
   }
   
   .menu ul {
     list-style: none;
-  text-decoration: blue;
+  text-decoration: #234B9A;
     
   }
   .menu li {
@@ -106,15 +316,49 @@ p.star{
   }
   .menu a {
     text-decoration: none;
-    color: #333;
-    font-size: 14px;
+    color:  #234B9A;
+    font-size: 20px;
     font-weight: bold;
-    font-family: 'Lato';
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .menu a:hover {
     text-decoration: underline;
   }
-  
+  /* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
     
     
  
